@@ -1598,7 +1598,7 @@
 #define Z_PROBE_LOW_POINT          -3 // (mm) Farthest distance below the trigger-point to go before stopping
 
 // For M851 give a range for adjusting the Z probe offset
-#define Z_PROBE_OFFSET_RANGE_MIN -5
+#define Z_PROBE_OFFSET_RANGE_MIN -10
 #define Z_PROBE_OFFSET_RANGE_MAX 6
 
 // Enable the M48 repeatability test to test probe accuracy
